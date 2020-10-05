@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC78701CD4E149C6489A42E /* Pods_LuizaLabsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045E38300CABBD03F4AEEE4 /* Pods_LuizaLabsTestTests.framework */; };
+		BBC1D025EC8BEC882F9DBC85 /* Pods_LuizaLabsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA8063BDE5CCF700A240063 /* Pods_LuizaLabsTest.framework */; };
+		F2011E23252B5AF100770D62 /* TweetsInteractorSentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2011E22252B5AF100770D62 /* TweetsInteractorSentimentTests.swift */; };
+		F2011E25252B5D9400770D62 /* AnalyzeSentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2011E24252B5D9400770D62 /* AnalyzeSentimentTests.swift */; };
+		F21DC2BC252ADE8A0033C3A5 /* LoadingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2BB252ADE8A0033C3A5 /* LoadingProtocol.swift */; };
+		F21DC2BF252AE17C0033C3A5 /* AlertTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2BE252AE17C0033C3A5 /* AlertTexts.swift */; };
+		F21DC2C3252AFD650033C3A5 /* TweetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2C1252AFD650033C3A5 /* TweetsTableViewCell.swift */; };
+		F21DC2C4252AFD650033C3A5 /* TweetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21DC2C2252AFD650033C3A5 /* TweetsTableViewCell.xib */; };
+		F21DC2C6252AFE610033C3A5 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2C5252AFE610033C3A5 /* UITableView.swift */; };
+		F21DC2C9252B04680033C3A5 /* LabelTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2C8252B04680033C3A5 /* LabelTexts.swift */; };
+		F21DC2D4252B0EB80033C3A5 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2D3252B0EB80033C3A5 /* UITableViewCell.swift */; };
+		F21DC2D7252B15C50033C3A5 /* TextSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2D6252B15C50033C3A5 /* TextSentiment.swift */; };
+		F21DC2DA252B18630033C3A5 /* TweetsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2D9252B18630033C3A5 /* TweetsInteractor.swift */; };
+		F21DC2DC252B18810033C3A5 /* TweetsInteractorOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2DB252B18810033C3A5 /* TweetsInteractorOutputDelegate.swift */; };
+		F21DC2DE252B1BC30033C3A5 /* AnalyzeSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2DD252B1BC30033C3A5 /* AnalyzeSentiment.swift */; };
+		F21DC2E0252B3BE80033C3A5 /* LoadingInteractorUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2DF252B3BE80033C3A5 /* LoadingInteractorUserTests.swift */; };
+		F21DC2E2252B412C0033C3A5 /* DocumentSentimentErrorResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2E1252B412C0033C3A5 /* DocumentSentimentErrorResponseData.swift */; };
+		F21DC2E4252B41580033C3A5 /* DocumentSentimentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2E3252B41580033C3A5 /* DocumentSentimentError.swift */; };
+		F21DC2E6252B52BD0033C3A5 /* LoadingInteractorTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2E5252B52BD0033C3A5 /* LoadingInteractorTweetsTests.swift */; };
+		F21DC2E8252B55FE0033C3A5 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2E7252B55FE0033C3A5 /* Meta.swift */; };
+		F21DC2EA252B57890033C3A5 /* TwitterUserTweetsErrorResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21DC2E9252B57890033C3A5 /* TwitterUserTweetsErrorResponseData.swift */; };
+		F22F9FE92526C14200A655EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F9FE82526C14200A655EC /* AppDelegate.swift */; };
+		F22F9FF22526C14300A655EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22F9FF12526C14300A655EC /* Assets.xcassets */; };
+		F22FA00B2526C14400A655EC /* LuizaLabsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA00A2526C14400A655EC /* LuizaLabsTestUITests.swift */; };
+		F22FA01A2526CEB800A655EC /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0182526CEB800A655EC /* TweetsViewController.swift */; };
+		F22FA01B2526CEB800A655EC /* TweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22FA0192526CEB800A655EC /* TweetsViewController.xib */; };
+		F22FA0232526D44200A655EC /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0212526D44200A655EC /* LoadingViewController.swift */; };
+		F22FA0242526D44200A655EC /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22FA0222526D44200A655EC /* LoadingViewController.xib */; };
+		F22FA02C2526DF2900A655EC /* AppDelegateWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA02B2526DF2900A655EC /* AppDelegateWireframe.swift */; };
+		F22FA0302526DF9A00A655EC /* AbstractWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA02F2526DF9A00A655EC /* AbstractWireframe.swift */; };
+		F22FA0322526EC5D00A655EC /* LoadingWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0312526EC5D00A655EC /* LoadingWireframe.swift */; };
+		F22FA0352526F1FA00A655EC /* LoadingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0342526F1FA00A655EC /* LoadingInteractor.swift */; };
+		F22FA0382526F20600A655EC /* LoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0372526F20600A655EC /* LoadingPresenter.swift */; };
+		F22FA03B2526F27700A655EC /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA03A2526F27700A655EC /* BasePresenter.swift */; };
+		F22FA03E2526F2CE00A655EC /* ModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA03D2526F2CE00A655EC /* ModuleIO.swift */; };
+		F22FA0432526FA9600A655EC /* LoadingInteractorOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0422526FA9600A655EC /* LoadingInteractorOutputDelegate.swift */; };
+		F22FA0462526FCAD00A655EC /* TweetsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0452526FCAD00A655EC /* TweetsWireframe.swift */; };
+		F22FA0492526FCD400A655EC /* TweetsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA0482526FCD400A655EC /* TweetsPresenter.swift */; };
+		F22FA04C2526FCE800A655EC /* TweetsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA04B2526FCE800A655EC /* TweetsViewProtocol.swift */; };
+		F22FA04F2527047600A655EC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA04E2527047600A655EC /* UIViewController.swift */; };
+		F2335E53252A561C00B94C19 /* TwitterUserResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E52252A561C00B94C19 /* TwitterUserResponseData.swift */; };
+		F2335E55252A562400B94C19 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E54252A562400B94C19 /* Tweet.swift */; };
+		F2335E57252A5B1200B94C19 /* TwitterErrorResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E56252A5B1200B94C19 /* TwitterErrorResponseData.swift */; };
+		F2335E59252A62A700B94C19 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E58252A62A700B94C19 /* User.swift */; };
+		F2335E5B252A645E00B94C19 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E5A252A645E00B94C19 /* Errors.swift */; };
+		F2335E5D252A67C900B94C19 /* DocumentSentimentResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E5C252A67C900B94C19 /* DocumentSentimentResponseData.swift */; };
+		F2335E5F252A692E00B94C19 /* DocumentSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E5E252A692E00B94C19 /* DocumentSentiment.swift */; };
+		F2335E63252A6B4800B94C19 /* DocumentSentimentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E62252A6B4800B94C19 /* DocumentSentimentRequest.swift */; };
+		F2335E66252A6DE300B94C19 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E65252A6DE300B94C19 /* HttpMethod.swift */; };
+		F2335E69252A715600B94C19 /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E68252A715600B94C19 /* SecretKeys.swift */; };
+		F2335E6B252A92DC00B94C19 /* TwitterUserTweetsResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E6A252A92DC00B94C19 /* TwitterUserTweetsResponseData.swift */; };
+		F2335E6E252A9C0700B94C19 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E6D252A9C0700B94C19 /* ResponseHandler.swift */; };
+		F2335E70252AA0E200B94C19 /* TwitterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E6F252AA0E200B94C19 /* TwitterUserRequest.swift */; };
+		F2335E72252AA2E000B94C19 /* TweetsIdsFromUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E71252AA2E000B94C19 /* TweetsIdsFromUserRequest.swift */; };
+		F2335E74252AA77400B94C19 /* TweetsFromUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E73252AA77400B94C19 /* TweetsFromUserRequest.swift */; };
+		F2335E76252AC0BB00B94C19 /* LoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2335E75252AC0BB00B94C19 /* LoadingModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22F9FFC2526C14300A655EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22F9FDD2526C14200A655EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22F9FE42526C14200A655EC;
+			remoteInfo = LuizaLabsTest;
+		};
+		F22FA0072526C14400A655EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22F9FDD2526C14200A655EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22F9FE42526C14200A655EC;
+			remoteInfo = LuizaLabsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1045E38300CABBD03F4AEEE4 /* Pods_LuizaLabsTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuizaLabsTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840C17AF61BB7244B6C0BC3 /* Pods-LuizaLabsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuizaLabsTest.release.xcconfig"; path = "Target Support Files/Pods-LuizaLabsTest/Pods-LuizaLabsTest.release.xcconfig"; sourceTree = "<group>"; };
+		8E8E71598C673E5851E4206D /* Pods-LuizaLabsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuizaLabsTestTests.debug.xcconfig"; path = "Target Support Files/Pods-LuizaLabsTestTests/Pods-LuizaLabsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		931541F97A4FA050130220EC /* Pods-LuizaLabsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuizaLabsTestTests.release.xcconfig"; path = "Target Support Files/Pods-LuizaLabsTestTests/Pods-LuizaLabsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFA8063BDE5CCF700A240063 /* Pods_LuizaLabsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuizaLabsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1072A5EFEB10EF2D6036346 /* Pods-LuizaLabsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuizaLabsTest.debug.xcconfig"; path = "Target Support Files/Pods-LuizaLabsTest/Pods-LuizaLabsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F2011E22252B5AF100770D62 /* TweetsInteractorSentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsInteractorSentimentTests.swift; sourceTree = "<group>"; };
+		F2011E24252B5D9400770D62 /* AnalyzeSentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeSentimentTests.swift; sourceTree = "<group>"; };
+		F21DC2BB252ADE8A0033C3A5 /* LoadingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingProtocol.swift; sourceTree = "<group>"; };
+		F21DC2BE252AE17C0033C3A5 /* AlertTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTexts.swift; sourceTree = "<group>"; };
+		F21DC2C1252AFD650033C3A5 /* TweetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsTableViewCell.swift; sourceTree = "<group>"; };
+		F21DC2C2252AFD650033C3A5 /* TweetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetsTableViewCell.xib; sourceTree = "<group>"; };
+		F21DC2C5252AFE610033C3A5 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		F21DC2C8252B04680033C3A5 /* LabelTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTexts.swift; sourceTree = "<group>"; };
+		F21DC2D3252B0EB80033C3A5 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		F21DC2D6252B15C50033C3A5 /* TextSentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSentiment.swift; sourceTree = "<group>"; };
+		F21DC2D9252B18630033C3A5 /* TweetsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsInteractor.swift; sourceTree = "<group>"; };
+		F21DC2DB252B18810033C3A5 /* TweetsInteractorOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsInteractorOutputDelegate.swift; sourceTree = "<group>"; };
+		F21DC2DD252B1BC30033C3A5 /* AnalyzeSentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeSentiment.swift; sourceTree = "<group>"; };
+		F21DC2DF252B3BE80033C3A5 /* LoadingInteractorUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractorUserTests.swift; sourceTree = "<group>"; };
+		F21DC2E1252B412C0033C3A5 /* DocumentSentimentErrorResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSentimentErrorResponseData.swift; sourceTree = "<group>"; };
+		F21DC2E3252B41580033C3A5 /* DocumentSentimentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSentimentError.swift; sourceTree = "<group>"; };
+		F21DC2E5252B52BD0033C3A5 /* LoadingInteractorTweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractorTweetsTests.swift; sourceTree = "<group>"; };
+		F21DC2E7252B55FE0033C3A5 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		F21DC2E9252B57890033C3A5 /* TwitterUserTweetsErrorResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserTweetsErrorResponseData.swift; sourceTree = "<group>"; };
+		F22F9FE52526C14200A655EC /* LuizaLabsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuizaLabsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F9FE82526C14200A655EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F22F9FF12526C14300A655EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22F9FF62526C14300A655EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22F9FFB2526C14300A655EC /* LuizaLabsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuizaLabsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FA0012526C14400A655EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FA0062526C14400A655EC /* LuizaLabsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuizaLabsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FA00A2526C14400A655EC /* LuizaLabsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizaLabsTestUITests.swift; sourceTree = "<group>"; };
+		F22FA00C2526C14400A655EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FA0182526CEB800A655EC /* TweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		F22FA0192526CEB800A655EC /* TweetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetsViewController.xib; sourceTree = "<group>"; };
+		F22FA0212526D44200A655EC /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		F22FA0222526D44200A655EC /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		F22FA02B2526DF2900A655EC /* AppDelegateWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateWireframe.swift; sourceTree = "<group>"; };
+		F22FA02F2526DF9A00A655EC /* AbstractWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractWireframe.swift; sourceTree = "<group>"; };
+		F22FA0312526EC5D00A655EC /* LoadingWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingWireframe.swift; sourceTree = "<group>"; };
+		F22FA0342526F1FA00A655EC /* LoadingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractor.swift; sourceTree = "<group>"; };
+		F22FA0372526F20600A655EC /* LoadingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPresenter.swift; sourceTree = "<group>"; };
+		F22FA03A2526F27700A655EC /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		F22FA03D2526F2CE00A655EC /* ModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleIO.swift; sourceTree = "<group>"; };
+		F22FA0422526FA9600A655EC /* LoadingInteractorOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingInteractorOutputDelegate.swift; sourceTree = "<group>"; };
+		F22FA0452526FCAD00A655EC /* TweetsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsWireframe.swift; sourceTree = "<group>"; };
+		F22FA0482526FCD400A655EC /* TweetsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsPresenter.swift; sourceTree = "<group>"; };
+		F22FA04B2526FCE800A655EC /* TweetsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsViewProtocol.swift; sourceTree = "<group>"; };
+		F22FA04E2527047600A655EC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		F2335E52252A561C00B94C19 /* TwitterUserResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserResponseData.swift; sourceTree = "<group>"; };
+		F2335E54252A562400B94C19 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		F2335E56252A5B1200B94C19 /* TwitterErrorResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterErrorResponseData.swift; sourceTree = "<group>"; };
+		F2335E58252A62A700B94C19 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2335E5A252A645E00B94C19 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		F2335E5C252A67C900B94C19 /* DocumentSentimentResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSentimentResponseData.swift; sourceTree = "<group>"; };
+		F2335E5E252A692E00B94C19 /* DocumentSentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSentiment.swift; sourceTree = "<group>"; };
+		F2335E62252A6B4800B94C19 /* DocumentSentimentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSentimentRequest.swift; sourceTree = "<group>"; };
+		F2335E65252A6DE300B94C19 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		F2335E68252A715600B94C19 /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
+		F2335E6A252A92DC00B94C19 /* TwitterUserTweetsResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserTweetsResponseData.swift; sourceTree = "<group>"; };
+		F2335E6D252A9C0700B94C19 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		F2335E6F252AA0E200B94C19 /* TwitterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserRequest.swift; sourceTree = "<group>"; };
+		F2335E71252AA2E000B94C19 /* TweetsIdsFromUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsIdsFromUserRequest.swift; sourceTree = "<group>"; };
+		F2335E73252AA77400B94C19 /* TweetsFromUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsFromUserRequest.swift; sourceTree = "<group>"; };
+		F2335E75252AC0BB00B94C19 /* LoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22F9FE22526C14200A655EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC1D025EC8BEC882F9DBC85 /* Pods_LuizaLabsTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F9FF82526C14300A655EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC78701CD4E149C6489A42E /* Pods_LuizaLabsTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FA0032526C14400A655EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48071D2FC97304177EBD01BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8063BDE5CCF700A240063 /* Pods_LuizaLabsTest.framework */,
+				1045E38300CABBD03F4AEEE4 /* Pods_LuizaLabsTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1B5171FEFA764FFA871CC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1072A5EFEB10EF2D6036346 /* Pods-LuizaLabsTest.debug.xcconfig */,
+				8840C17AF61BB7244B6C0BC3 /* Pods-LuizaLabsTest.release.xcconfig */,
+				8E8E71598C673E5851E4206D /* Pods-LuizaLabsTestTests.debug.xcconfig */,
+				931541F97A4FA050130220EC /* Pods-LuizaLabsTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F21DC2BD252AE1670033C3A5 /* Alert Texts */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2BE252AE17C0033C3A5 /* AlertTexts.swift */,
+			);
+			path = "Alert Texts";
+			sourceTree = "<group>";
+		};
+		F21DC2C0252AFD480033C3A5 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2C1252AFD650033C3A5 /* TweetsTableViewCell.swift */,
+				F21DC2C2252AFD650033C3A5 /* TweetsTableViewCell.xib */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		F21DC2C7252B044B0033C3A5 /* Label Texts */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2C8252B04680033C3A5 /* LabelTexts.swift */,
+			);
+			path = "Label Texts";
+			sourceTree = "<group>";
+		};
+		F21DC2D5252B15B80033C3A5 /* Text Sentiment */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2D6252B15C50033C3A5 /* TextSentiment.swift */,
+			);
+			path = "Text Sentiment";
+			sourceTree = "<group>";
+		};
+		F21DC2D8252B18520033C3A5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2D9252B18630033C3A5 /* TweetsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F22F9FDC2526C14200A655EC = {
+			isa = PBXGroup;
+			children = (
+				F22F9FE72526C14200A655EC /* LuizaLabsTest */,
+				F22F9FFE2526C14400A655EC /* LuizaLabsTestTests */,
+				F22FA0092526C14400A655EC /* LuizaLabsTestUITests */,
+				F22F9FE62526C14200A655EC /* Products */,
+				D1B5171FEFA764FFA871CC26 /* Pods */,
+				48071D2FC97304177EBD01BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F22F9FE62526C14200A655EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22F9FE52526C14200A655EC /* LuizaLabsTest.app */,
+				F22F9FFB2526C14300A655EC /* LuizaLabsTestTests.xctest */,
+				F22FA0062526C14400A655EC /* LuizaLabsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22F9FE72526C14200A655EC /* LuizaLabsTest */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA02D2526DF8000A655EC /* Commons */,
+				F22FA0252526D84B00A655EC /* Features */,
+				F22FA01C2526CEBE00A655EC /* Resources */,
+			);
+			path = LuizaLabsTest;
+			sourceTree = "<group>";
+		};
+		F22F9FFE2526C14400A655EC /* LuizaLabsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2DF252B3BE80033C3A5 /* LoadingInteractorUserTests.swift */,
+				F22FA0012526C14400A655EC /* Info.plist */,
+				F21DC2E5252B52BD0033C3A5 /* LoadingInteractorTweetsTests.swift */,
+				F2011E22252B5AF100770D62 /* TweetsInteractorSentimentTests.swift */,
+				F2011E24252B5D9400770D62 /* AnalyzeSentimentTests.swift */,
+			);
+			path = LuizaLabsTestTests;
+			sourceTree = "<group>";
+		};
+		F22FA0092526C14400A655EC /* LuizaLabsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA00A2526C14400A655EC /* LuizaLabsTestUITests.swift */,
+				F22FA00C2526C14400A655EC /* Info.plist */,
+			);
+			path = LuizaLabsTestUITests;
+			sourceTree = "<group>";
+		};
+		F22FA01C2526CEBE00A655EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F22F9FF62526C14300A655EC /* Info.plist */,
+				F22F9FF12526C14300A655EC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F22FA01D2526CEDA00A655EC /* Tweets View */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2C0252AFD480033C3A5 /* Table Cell */,
+				F22FA0182526CEB800A655EC /* TweetsViewController.swift */,
+				F22FA0192526CEB800A655EC /* TweetsViewController.xib */,
+			);
+			path = "Tweets View";
+			sourceTree = "<group>";
+		};
+		F22FA01F2526D42500A655EC /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0212526D44200A655EC /* LoadingViewController.swift */,
+				F22FA0222526D44200A655EC /* LoadingViewController.xib */,
+			);
+			path = "Loading View";
+			sourceTree = "<group>";
+		};
+		F22FA0252526D84B00A655EC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E51252A560100B94C19 /* Models */,
+				F22FA0292526DF0A00A655EC /* App Delegate */,
+				F22FA0262526D85900A655EC /* Loading */,
+				F22FA0272526D85D00A655EC /* Tweets */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F22FA0262526D85900A655EC /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA03F2526F5F200A655EC /* Protocol */,
+				F22FA0362526F1FC00A655EC /* Presenter */,
+				F22FA0332526F1F000A655EC /* Interactor */,
+				F22FA0282526DCF600A655EC /* Wireframe */,
+				F22FA01F2526D42500A655EC /* Loading View */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		F22FA0272526D85D00A655EC /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2D8252B18520033C3A5 /* Interactor */,
+				F22FA04A2526FCDD00A655EC /* Protocol */,
+				F22FA0472526FCCC00A655EC /* Presenter */,
+				F22FA0442526FCA200A655EC /* Wireframe */,
+				F22FA01D2526CEDA00A655EC /* Tweets View */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		F22FA0282526DCF600A655EC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0312526EC5D00A655EC /* LoadingWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		F22FA0292526DF0A00A655EC /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA02A2526DF1E00A655EC /* Wireframe */,
+				F22F9FE82526C14200A655EC /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		F22FA02A2526DF1E00A655EC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA02B2526DF2900A655EC /* AppDelegateWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		F22FA02D2526DF8000A655EC /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				F21DC2D5252B15B80033C3A5 /* Text Sentiment */,
+				F21DC2BD252AE1670033C3A5 /* Alert Texts */,
+				F2335E67252A714800B94C19 /* API Keys */,
+				F22FA0392526F24800A655EC /* Base Presenter */,
+				F22FA02E2526DF8400A655EC /* Base Wireframe */,
+				F22FA04D2527046100A655EC /* Extensions */,
+				F2335E64252A6DCA00B94C19 /* HttpMethods */,
+				F21DC2C7252B044B0033C3A5 /* Label Texts */,
+				F22FA03C2526F2AF00A655EC /* ModuleIO */,
+				F2335E6C252A9BDD00B94C19 /* Response Enum */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		F22FA02E2526DF8400A655EC /* Base Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA02F2526DF9A00A655EC /* AbstractWireframe.swift */,
+			);
+			path = "Base Wireframe";
+			sourceTree = "<group>";
+		};
+		F22FA0332526F1F000A655EC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0342526F1FA00A655EC /* LoadingInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F22FA0362526F1FC00A655EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0372526F20600A655EC /* LoadingPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F22FA0392526F24800A655EC /* Base Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA03A2526F27700A655EC /* BasePresenter.swift */,
+			);
+			path = "Base Presenter";
+			sourceTree = "<group>";
+		};
+		F22FA03C2526F2AF00A655EC /* ModuleIO */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA03D2526F2CE00A655EC /* ModuleIO.swift */,
+			);
+			path = ModuleIO;
+			sourceTree = "<group>";
+		};
+		F22FA03F2526F5F200A655EC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0422526FA9600A655EC /* LoadingInteractorOutputDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F22FA0442526FCA200A655EC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0452526FCAD00A655EC /* TweetsWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		F22FA0472526FCCC00A655EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA0482526FCD400A655EC /* TweetsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F22FA04A2526FCDD00A655EC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA04B2526FCE800A655EC /* TweetsViewProtocol.swift */,
+				F21DC2BB252ADE8A0033C3A5 /* LoadingProtocol.swift */,
+				F21DC2DB252B18810033C3A5 /* TweetsInteractorOutputDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F22FA04D2527046100A655EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F22FA04E2527047600A655EC /* UIViewController.swift */,
+				F21DC2C5252AFE610033C3A5 /* UITableView.swift */,
+				F21DC2D3252B0EB80033C3A5 /* UITableViewCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2335E51252A560100B94C19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E61252A6A4E00B94C19 /* Request */,
+				F2335E60252A6A3500B94C19 /* Response */,
+				F2335E54252A562400B94C19 /* Tweet.swift */,
+				F2335E58252A62A700B94C19 /* User.swift */,
+				F2335E5A252A645E00B94C19 /* Errors.swift */,
+				F2335E5E252A692E00B94C19 /* DocumentSentiment.swift */,
+				F2335E75252AC0BB00B94C19 /* LoadingModel.swift */,
+				F21DC2DD252B1BC30033C3A5 /* AnalyzeSentiment.swift */,
+				F21DC2E3252B41580033C3A5 /* DocumentSentimentError.swift */,
+				F21DC2E7252B55FE0033C3A5 /* Meta.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2335E60252A6A3500B94C19 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E52252A561C00B94C19 /* TwitterUserResponseData.swift */,
+				F2335E56252A5B1200B94C19 /* TwitterErrorResponseData.swift */,
+				F2335E5C252A67C900B94C19 /* DocumentSentimentResponseData.swift */,
+				F2335E6A252A92DC00B94C19 /* TwitterUserTweetsResponseData.swift */,
+				F21DC2E1252B412C0033C3A5 /* DocumentSentimentErrorResponseData.swift */,
+				F21DC2E9252B57890033C3A5 /* TwitterUserTweetsErrorResponseData.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F2335E61252A6A4E00B94C19 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E62252A6B4800B94C19 /* DocumentSentimentRequest.swift */,
+				F2335E6F252AA0E200B94C19 /* TwitterUserRequest.swift */,
+				F2335E71252AA2E000B94C19 /* TweetsIdsFromUserRequest.swift */,
+				F2335E73252AA77400B94C19 /* TweetsFromUserRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F2335E64252A6DCA00B94C19 /* HttpMethods */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E65252A6DE300B94C19 /* HttpMethod.swift */,
+			);
+			path = HttpMethods;
+			sourceTree = "<group>";
+		};
+		F2335E67252A714800B94C19 /* API Keys */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E68252A715600B94C19 /* SecretKeys.swift */,
+			);
+			path = "API Keys";
+			sourceTree = "<group>";
+		};
+		F2335E6C252A9BDD00B94C19 /* Response Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F2335E6D252A9C0700B94C19 /* ResponseHandler.swift */,
+			);
+			path = "Response Enum";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22F9FE42526C14200A655EC /* LuizaLabsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FA00F2526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTest" */;
+			buildPhases = (
+				8AC19657238DB1B1FF695E7A /* [CP] Check Pods Manifest.lock */,
+				F22F9FE12526C14200A655EC /* Sources */,
+				F22F9FE22526C14200A655EC /* Frameworks */,
+				F22F9FE32526C14200A655EC /* Resources */,
+				0745C73A0951A4F31493BB5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuizaLabsTest;
+			productName = LuizaLabsTest;
+			productReference = F22F9FE52526C14200A655EC /* LuizaLabsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22F9FFA2526C14300A655EC /* LuizaLabsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FA0122526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTestTests" */;
+			buildPhases = (
+				B2FF947E084433330AC204DC /* [CP] Check Pods Manifest.lock */,
+				F22F9FF72526C14300A655EC /* Sources */,
+				F22F9FF82526C14300A655EC /* Frameworks */,
+				F22F9FF92526C14300A655EC /* Resources */,
+				E9C9261EEBE32A5AFFFD5967 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22F9FFD2526C14300A655EC /* PBXTargetDependency */,
+			);
+			name = LuizaLabsTestTests;
+			productName = LuizaLabsTestTests;
+			productReference = F22F9FFB2526C14300A655EC /* LuizaLabsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22FA0052526C14400A655EC /* LuizaLabsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FA0152526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTestUITests" */;
+			buildPhases = (
+				F22FA0022526C14400A655EC /* Sources */,
+				F22FA0032526C14400A655EC /* Frameworks */,
+				F22FA0042526C14400A655EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22FA0082526C14400A655EC /* PBXTargetDependency */,
+			);
+			name = LuizaLabsTestUITests;
+			productName = LuizaLabsTestUITests;
+			productReference = F22FA0062526C14400A655EC /* LuizaLabsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22F9FDD2526C14200A655EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Kendy Nagao";
+				TargetAttributes = {
+					F22F9FE42526C14200A655EC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F22F9FFA2526C14300A655EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F22F9FE42526C14200A655EC;
+					};
+					F22FA0052526C14400A655EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F22F9FE42526C14200A655EC;
+					};
+				};
+			};
+			buildConfigurationList = F22F9FE02526C14200A655EC /* Build configuration list for PBXProject "LuizaLabsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22F9FDC2526C14200A655EC;
+			productRefGroup = F22F9FE62526C14200A655EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22F9FE42526C14200A655EC /* LuizaLabsTest */,
+				F22F9FFA2526C14300A655EC /* LuizaLabsTestTests */,
+				F22FA0052526C14400A655EC /* LuizaLabsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22F9FE32526C14200A655EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FA0242526D44200A655EC /* LoadingViewController.xib in Resources */,
+				F22FA01B2526CEB800A655EC /* TweetsViewController.xib in Resources */,
+				F22F9FF22526C14300A655EC /* Assets.xcassets in Resources */,
+				F21DC2C4252AFD650033C3A5 /* TweetsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F9FF92526C14300A655EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FA0042526C14400A655EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0745C73A0951A4F31493BB5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTest/Pods-LuizaLabsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTest/Pods-LuizaLabsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTest/Pods-LuizaLabsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC19657238DB1B1FF695E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuizaLabsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FF947E084433330AC204DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuizaLabsTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C9261EEBE32A5AFFFD5967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTestTests/Pods-LuizaLabsTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTestTests/Pods-LuizaLabsTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuizaLabsTestTests/Pods-LuizaLabsTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22F9FE12526C14200A655EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21DC2BC252ADE8A0033C3A5 /* LoadingProtocol.swift in Sources */,
+				F22FA0352526F1FA00A655EC /* LoadingInteractor.swift in Sources */,
+				F22FA0462526FCAD00A655EC /* TweetsWireframe.swift in Sources */,
+				F2335E57252A5B1200B94C19 /* TwitterErrorResponseData.swift in Sources */,
+				F21DC2E8252B55FE0033C3A5 /* Meta.swift in Sources */,
+				F22FA03E2526F2CE00A655EC /* ModuleIO.swift in Sources */,
+				F22FA04C2526FCE800A655EC /* TweetsViewProtocol.swift in Sources */,
+				F2335E6B252A92DC00B94C19 /* TwitterUserTweetsResponseData.swift in Sources */,
+				F22FA03B2526F27700A655EC /* BasePresenter.swift in Sources */,
+				F2335E55252A562400B94C19 /* Tweet.swift in Sources */,
+				F21DC2DA252B18630033C3A5 /* TweetsInteractor.swift in Sources */,
+				F21DC2DC252B18810033C3A5 /* TweetsInteractorOutputDelegate.swift in Sources */,
+				F2335E74252AA77400B94C19 /* TweetsFromUserRequest.swift in Sources */,
+				F2335E5F252A692E00B94C19 /* DocumentSentiment.swift in Sources */,
+				F22FA0492526FCD400A655EC /* TweetsPresenter.swift in Sources */,
+				F2335E59252A62A700B94C19 /* User.swift in Sources */,
+				F2335E70252AA0E200B94C19 /* TwitterUserRequest.swift in Sources */,
+				F21DC2E2252B412C0033C3A5 /* DocumentSentimentErrorResponseData.swift in Sources */,
+				F22FA01A2526CEB800A655EC /* TweetsViewController.swift in Sources */,
+				F2335E53252A561C00B94C19 /* TwitterUserResponseData.swift in Sources */,
+				F2335E6E252A9C0700B94C19 /* ResponseHandler.swift in Sources */,
+				F22FA0302526DF9A00A655EC /* AbstractWireframe.swift in Sources */,
+				F22FA0432526FA9600A655EC /* LoadingInteractorOutputDelegate.swift in Sources */,
+				F2335E5B252A645E00B94C19 /* Errors.swift in Sources */,
+				F22F9FE92526C14200A655EC /* AppDelegate.swift in Sources */,
+				F21DC2C3252AFD650033C3A5 /* TweetsTableViewCell.swift in Sources */,
+				F2335E63252A6B4800B94C19 /* DocumentSentimentRequest.swift in Sources */,
+				F2335E76252AC0BB00B94C19 /* LoadingModel.swift in Sources */,
+				F21DC2DE252B1BC30033C3A5 /* AnalyzeSentiment.swift in Sources */,
+				F2335E72252AA2E000B94C19 /* TweetsIdsFromUserRequest.swift in Sources */,
+				F2335E69252A715600B94C19 /* SecretKeys.swift in Sources */,
+				F22FA0322526EC5D00A655EC /* LoadingWireframe.swift in Sources */,
+				F21DC2D4252B0EB80033C3A5 /* UITableViewCell.swift in Sources */,
+				F21DC2E4252B41580033C3A5 /* DocumentSentimentError.swift in Sources */,
+				F21DC2C6252AFE610033C3A5 /* UITableView.swift in Sources */,
+				F22FA0232526D44200A655EC /* LoadingViewController.swift in Sources */,
+				F21DC2D7252B15C50033C3A5 /* TextSentiment.swift in Sources */,
+				F22FA02C2526DF2900A655EC /* AppDelegateWireframe.swift in Sources */,
+				F2335E5D252A67C900B94C19 /* DocumentSentimentResponseData.swift in Sources */,
+				F2335E66252A6DE300B94C19 /* HttpMethod.swift in Sources */,
+				F21DC2BF252AE17C0033C3A5 /* AlertTexts.swift in Sources */,
+				F22FA04F2527047600A655EC /* UIViewController.swift in Sources */,
+				F22FA0382526F20600A655EC /* LoadingPresenter.swift in Sources */,
+				F21DC2C9252B04680033C3A5 /* LabelTexts.swift in Sources */,
+				F21DC2EA252B57890033C3A5 /* TwitterUserTweetsErrorResponseData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F9FF72526C14300A655EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2011E25252B5D9400770D62 /* AnalyzeSentimentTests.swift in Sources */,
+				F21DC2E0252B3BE80033C3A5 /* LoadingInteractorUserTests.swift in Sources */,
+				F21DC2E6252B52BD0033C3A5 /* LoadingInteractorTweetsTests.swift in Sources */,
+				F2011E23252B5AF100770D62 /* TweetsInteractorSentimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FA0022526C14400A655EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FA00B2526C14400A655EC /* LuizaLabsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22F9FFD2526C14300A655EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22F9FE42526C14200A655EC /* LuizaLabsTest */;
+			targetProxy = F22F9FFC2526C14300A655EC /* PBXContainerItemProxy */;
+		};
+		F22FA0082526C14400A655EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22F9FE42526C14200A655EC /* LuizaLabsTest */;
+			targetProxy = F22FA0072526C14400A655EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F22FA00D2526C14400A655EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22FA00E2526C14400A655EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22FA0102526C14400A655EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1072A5EFEB10EF2D6036346 /* Pods-LuizaLabsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTest/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F22FA0112526C14400A655EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8840C17AF61BB7244B6C0BC3 /* Pods-LuizaLabsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTest/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F22FA0132526C14400A655EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8E71598C673E5851E4206D /* Pods-LuizaLabsTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuizaLabsTest.app/LuizaLabsTest";
+			};
+			name = Debug;
+		};
+		F22FA0142526C14400A655EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931541F97A4FA050130220EC /* Pods-LuizaLabsTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuizaLabsTest.app/LuizaLabsTest";
+			};
+			name = Release;
+		};
+		F22FA0162526C14400A655EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuizaLabsTest;
+			};
+			name = Debug;
+		};
+		F22FA0172526C14400A655EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuizaLabsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.teste.LuizaLabsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuizaLabsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22F9FE02526C14200A655EC /* Build configuration list for PBXProject "LuizaLabsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FA00D2526C14400A655EC /* Debug */,
+				F22FA00E2526C14400A655EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FA00F2526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FA0102526C14400A655EC /* Debug */,
+				F22FA0112526C14400A655EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FA0122526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FA0132526C14400A655EC /* Debug */,
+				F22FA0142526C14400A655EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FA0152526C14400A655EC /* Build configuration list for PBXNativeTarget "LuizaLabsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FA0162526C14400A655EC /* Debug */,
+				F22FA0172526C14400A655EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22F9FDD2526C14200A655EC /* Project object */;
+}

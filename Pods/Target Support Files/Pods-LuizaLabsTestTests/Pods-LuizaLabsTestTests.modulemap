@@ -1,0 +1,6 @@
+framework module Pods_LuizaLabsTestTests {
+  umbrella header "Pods-LuizaLabsTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
