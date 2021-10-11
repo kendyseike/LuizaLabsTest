@@ -1,14 +1,3 @@
-# LuizaLabsTest
-
-Olá! Primeiro quero agradecer a oportunidade de participar do processo seletivo, adorei esse teste! (:
-
-Vamos lá!
-
-# 1 - Cocoapods
-
-Estou utilizando apenas o Alamofire para realizar as requests HTTP, graças a regra de negócio pude contemplar um código bem desacoplado e fácil de testar!
-
-Não esqueça de rodar o $ pod install xD
 
 # 2 - Design Pattern
 
@@ -27,9 +16,3 @@ Realizei os testes que achei pertinente ao que se diz respeito a integridade do 
 
 O motivo de eu ter criado apenas uma tela com interação foi justamente para tentar fazer a abstração do trabalho pesado para dentro de um componente coringa, tinha imaginado utilizar RxSwift para fazer bind com UI mas achei bem legível fazendo a conversação via delegate sem engessar muito o componente e a tela de Tweets. Meu intuito inicialmente foi mostrar ao máximo a minha forma de resolver problemas sem depender muito de pods, não que eu seja contra, muito pelo contrário.
 Entendo que pode ser uma escolha arriscada já que demonstrar desenvoltura nas libs mais utilizadas do mercado pode ser um plus, mas estou confiante na implementação que fiz, cruzando os dedos aqui! rs
-
-# 6 - Final
-
-Simplesmente adorei fazer este app, foi bem divertido, sem dúvida um dos testes propostos mais legais que já vi. Torço para que gostem e caso tenham críticas e/ou sugestões, adoraria ouvir!
-
-Muito obrigado!
